@@ -11,3 +11,7 @@ function dd($data){
     pre_r($data);
     exit;
 }
+
+function br(){
+    echo "<br>";
+}
