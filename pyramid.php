@@ -14,6 +14,15 @@ function pyramid($n) {
     return array_merge(...$output);
 }
 
+// function pyramid($n) {
+//     $array = [];
+//     for ($i = 1; $i <= $n; $i++) {
+//       $array[] = array_fill(0, $i, 1);
+//     }
+//     return $array;
+  
+// }
+
 
 pre_r(pyramid(0));
 pre_r(pyramid(1));
