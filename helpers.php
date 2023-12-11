@@ -15,3 +15,7 @@ function dd($data){
 function br(){
     echo "<br>";
 }
+
+function vd($data){
+ var_dump($data);
+}
